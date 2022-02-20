@@ -14,16 +14,17 @@ function preload() {
   img = loadImage('img/last_best_hope.png');
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function setup() {
-  createCanvas(1440, 720);
+  let myCanvas = createCanvas(windowWidth, windowHeight);
+  myCanvas.parent("main_section");
   background('yellow');
-  // var div = createDiv('').size(1440, 720);     
-  // div.center();
   image(img, (canvas_w-img_w)/2,(canvas_h-img_h)/2, img_w, img_h);
   
 }
-
-
   
   function draw() {
     stroke("black");
