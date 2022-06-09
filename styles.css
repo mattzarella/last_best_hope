@@ -35,18 +35,12 @@ body {
     gap: 40px;
   }
 
-a{
-    color: #FFFFFF;
+.div a{
+    color: #164709;
     text-decoration: none;
 }
 
-.quote_section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#1F2937;
-    height:650px;
-}
+
 
 .quote_container {
     justify-content: center;
@@ -61,13 +55,6 @@ a{
     max-width:1000px;
     font-style:italic;
     font-weight:lighter;
-}
-  
-.quote_source {
-    color:black; 
-    text-align:right; 
-    font-size:32px;
-    font-weight:bold;
 }
 
 .footer{
